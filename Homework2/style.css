@@ -1,0 +1,51 @@
+
+body{
+    background-color: rgb(218, 247, 166);
+}
+
+section {
+    background-color: rgb(245, 203, 167);
+}
+/*phones*/
+@media screen and (max-width:360px){
+    #grid-flex { width: 97%; }
+    img { width: 50%; }
+    .grid-item {   
+      width: 45%;
+      height: 450px;
+      float: left;
+      padding: 10px;
+    }
+      li:first-child {
+          width: 100%;
+          height: 300px;
+}
+}
+@media screen and (min-width: 361px) and (max-width: 959px){
+    #grid-flex { width: 97%; }
+    img { width: 50%; }
+    .grid-item { 
+        width: 25%; 
+        height: 355px; 
+        float: left; 
+        padding: 6px; 
+    }
+     li:nth-child(-n+2) {
+        width: 48%;
+        height: 300px;   
+    
+    }
+}
+    
+ @media screen and (min-width: 960px){
+     #grid-flex { width: 97%; }
+     img { width: 50%;}
+     .grid-item { 
+        width: 20%;
+        height: 415px; 
+        float: left; 
+        padding: 5px; 
+}
+     li:first-child {
+        width: 50%;
+    }
